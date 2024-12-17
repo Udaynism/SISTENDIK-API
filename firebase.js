@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./sistem-tenaga-kependidikan-firebase-adminsdk-voxsp-55690c4dab.json'); 
+const serviceAccount = require('./sistem-tenaga-kependidikan-firebase-adminsdk-voxsp-db64f1192b.json'); 
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
