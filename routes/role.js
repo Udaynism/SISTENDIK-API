@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const db = require('../firebase');
 
-// POST: Tambah role
+// POST: Tambah role 1
 router.post('/role', async (req, res) => {
   try {
     const data = req.body;
